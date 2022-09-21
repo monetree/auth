@@ -8,7 +8,7 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(
     <Auth0Provider
-      domain="localhost:3000"
+      domain="https://main.ddvn5oizaikgt.amplifyapp.com"
       clientId="MToy0ApInf5dDYIwifPsz"
       redirectUri={window.location.origin}
     >
