@@ -8,8 +8,8 @@ import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById("root"));
   root.render(
     <Auth0Provider
-      domain="dev-amftxahu.us.auth0.com"
-      clientId="waXUWsTg2iG8Vuuj5BNbTvHfWypYScvk"
+      domain="joinmosaic-test.us.auth0.com"
+      clientId="0HpNi0Ml91gEvziHtbpY86YA6BFeweNu"
       redirectUri={window.location.origin}
     >
      <App />
